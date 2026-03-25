@@ -1,0 +1,8 @@
+{
+  "Scholarship_A": {
+    "min_age": 18,
+    "max_age": 25,
+    "income_limit": 200000,
+    "allowed_categories": ["SC", "ST", "OBC"]
+  }
+}

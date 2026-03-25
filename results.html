@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h2>Application Result</h2>
+
+    {% if reasons %}
+        <h3>Rejected ❌</h3>
+        <ul>
+            {% for r in reasons %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h3>Approved ✅</h3>
+        <p>Your application meets all eligibility criteria.</p>
+    {% endif %}
+</body>
+</html>
