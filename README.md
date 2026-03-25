@@ -1,4 +1,4 @@
-# rejectaid-
+# rejectaid- (ON GOING)
 Built a Flask-based web app to check eligibility and explain rejection reasons for government schemes.
 Why Rejected? Assistant
 
